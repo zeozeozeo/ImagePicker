@@ -1,0 +1,65 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+publish/
+artifacts/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+launchSettings.json   # remove this line if you want to share launch profiles
+
+## Test results & coverage
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+TestResults/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+.nuget/
+
+## ASP.NET / config secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+.env
+
+## Publish profiles
+*.pubxml
+*.pubxml.user
+*.publishproj
+
+## ReSharper / analyzers
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+.sonarqube/
+
+## Misc
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
